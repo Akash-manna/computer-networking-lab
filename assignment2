@@ -1,0 +1,10 @@
+//Assignment 2
+Q. Write down the steps to configure ip address of Linux Machine
+Ans. Following steps are used to configure IP Address of a linux machine
+  1. To check IP Address - ifconfig
+  2. Ro start/stop/restart network - service network start|stop|restart
+  3. To set network IP Address- ifconfig eth0 <IP Address> netmask 255.255.255.0
+  4. To check communication between two nodes - ping <IP Address>
+                                              - ping -c 10 <IP Address>
+  5. Clearing IP Tables - iptables -F
+  6. To enable/disable Ethernet(NIC) card - ifconfig eth0 up|down
